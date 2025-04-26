@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.story-bar {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding: 15px 10px;
+  border-bottom: 1px solid #0ff;
+  background-color: #0d0d0d;
+  box-shadow: inset 0 -2px 5px rgba(0, 255, 255, 0.2);
+}
+
+.story {
+  flex: 0 0 auto;
+  text-align: center;
+  color: #0ff;
+  font-size: 0.8em;
+}
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #f0f;
+  box-shadow: 0 0 8px #f0f, 0 0 12px #0ff;
+  margin-bottom: 5px;
+  transition: transform 0.3s ease;
+}
+
+.story img:hover {
+  transform: scale(1.1);
+}
+
+.neon-header {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.neon-header h1 {
+  font-size: 2em;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.neon-header h1 span {
+  color: #f0f;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+}
+
+.feed-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #0ff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #f0f;
+  box-shadow: 0 0 5px #f0f;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.nav-bar a {
+  color: #0ff;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #0ff;
+}

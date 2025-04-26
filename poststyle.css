@@ -1,0 +1,76 @@
+.post-upload-container {
+  padding: 30px 20px 80px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.neon-label {
+  font-size: 1.1em;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
+
+.neon-input-file {
+  padding: 10px;
+  background-color: #111;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0ff;
+}
+
+.neon-textarea {
+  min-height: 100px;
+  padding: 10px;
+  background: #111;
+  border: 2px solid #0ff;
+  color: #0ff;
+  border-radius: 5px;
+  resize: vertical;
+  font-family: inherit;
+  box-shadow: 0 0 5px #0ff;
+}
+.post-upload-container {
+  padding: 30px 20px 80px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.neon-label {
+  font-size: 1.1em;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff;
+}
+
+.neon-input-file {
+  padding: 10px;
+  background-color: #111;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0ff;
+}
+
+.neon-textarea {
+  min-height: 100px;
+  padding: 10px;
+  background: #111;
+  border: 2px solid #0ff;
+  color: #0ff;
+  border-radius: 5px;
+  resize: vertical;
+  font-family: inherit;
+  box-shadow: 0 0 5px #0ff;
+}
