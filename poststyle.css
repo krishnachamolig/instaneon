@@ -74,3 +74,61 @@
   font-family: inherit;
   box-shadow: 0 0 5px #0ff;
 }
+.neon-header h1 {
+  font-size: 2em;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+.neon-header h1 span {
+  color: #f0f;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+}
+
+.feed-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #0ff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #f0f;
+  box-shadow: 0 0 5px #f0f;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #111;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.nav-bar a {
+  color: #0ff;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #0ff;
+}

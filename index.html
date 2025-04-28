@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Login | InstaNeon</title>
-  <link rel="stylesheet" href="indexstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Authentication</title>
 </head>
 <body>
-  <div class="neon-box">
-    <h2 class="neon-text">InstaNeon</h2>
-    <form>
-      <input type="text" placeholder="Username" class="neon-input"><br>
-      <input type="password" placeholder="Password" class="neon-input"><br>
-      <button type="submit" class="neon-button">Login</button>
-    </form>
-  </div>
+    <h1>Firebase Authentication Example</h1>
+
+    <!-- Register Form -->
+    <h3>Register</h3>
+    <input type="email" id="reg-email" placeholder="Email" />
+    <input type="password" id="reg-pass" placeholder="Password" />
+    <button onclick="register()">Register</button>
+
+    <!-- Login Form -->
+    <h3>Login</h3>
+    <input type="email" id="log-email" placeholder="Email" />
+    <input type="password" id="log-pass" placeholder="Password" />
+    <button onclick="login()">Login</button>
+
+    <!-- Logout Button -->
+    <h3>Logout</h3>
+    <button onclick="logout()">Logout</button>
+
+    <!-- Firebase Script Link -->
+    <script type="module" src="auth.js" defer></script>
 </body>
 </html>

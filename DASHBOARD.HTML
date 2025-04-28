@@ -1,0 +1,24 @@
+<script type="module">
+  import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-auth.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCwRSG_Oub9FKWlyEdmPXHP14y3wjCcyug",
+    authDomain: "neon-tech-c43fd.firebaseapp.com",
+    projectId: "neon-tech-c43fd",
+    "1:299869512227:web:d04e408de488cda91c4796",
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth(app);
+
+  onAuthStateChanged(auth, user => {
+    if (!user) {
+      // ❌ User not logged in, redirect to login
+      window.location.href = "login.html";
+    } else {
+      // ✅ User is logged in
+      document.body.innerHTML += `<p>Welcome, ${user.email}</p>`;
+    }
+  });
+</script>
